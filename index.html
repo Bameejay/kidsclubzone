@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidsclubzone</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="relative container mx-auto px-6 py-4 bg-white">
+        <!-- Flex Container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <a href="#"><img src="/img/kidsclubzone_logo.png" alt="kidsclubzon_logo"></a>
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden space-x-4 text-sm md:flex">
+                <a href="#" class="hover:text-gray-400">Blog</a>
+                <a href="#" class="hover:text-gray-400">Platforms</a>
+                <a href="#" class="hover:text-gray-400">Resources</a>
+                <a href="#" class="hover:text-gray-400">Scholarships</a>
+                <a href="#" class="hover:text-gray-400">Shop</a>
+                <a href="#" class="hover:text-gray-400">FAQ</a>
+            </div>
+            <!-- Button -->
+            <a href="#" class="text-sm text-white bg-gradient-to-r from-purple-500 to-pink-500 py-2 px-6 rounded-lg font-bold hidden md:block">Get Started</a>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+        </div>
+
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Blog</a>
+                <a href="#">Platforms</a>
+                <a href="#">Resources</a>
+                <a href="#">Scholarships</a>
+                <a href="#">Shop</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="hero--section" class="bg-[#f8f8f8]">
+        <!-- Flex container -->
+        <div class="container mx-auto space-y-0 flex flex-col-reverse items-center px-6 md:flex-row md:space-y-0 ">
+            <!-- Left Side -->
+            <div class="flex flex-col mx-auto space-y-4 py-20 md:w-1/2 md:text-left">
+                <!-- social media icons container -->
+                <div class="flex flex-row p-2 w-96 rounded-full bg-white items-center justify-around">
+                    <p class="text-gray-400 text-xs">Follow us on socials</p>
+                    <!-- social icons -->
+                    <div class="flex flex-row items-center align-middle space-x-3">
+                        <a href="#"><img src="img/youtube_logo.png" alt="youtube" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/twitter.png" alt="twitter" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/instagram.png" alt="instagram" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/linkedin.png" alt="linkedIn" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/facebook.png" alt="facebook" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/tiktok.png" alt="tiktok" class="h-4 w-4"></a>
+                    </div>
+                </div>
+                <h1 class="text-6xl font-bold">Sparking their <span class="text-red-600">curiosity</span> & creativity</h1>
+                <p class="text-xs text-black w-[400px] font-bold">We prepare young minds for an innovative future by igniting imagination, fostering essential soft skills, and providing engaging hands-on learning experiences in coding, STEM, and interactive classes.</p>
+                <div>
+                    <a href="#" class="text-sm text-white bg-gradient-to-r from-purple-500 to-pink-500 py-2 px-6 rounded-lg font-bold">Get Started</a>
+                </div>
+            </div>
+            <!-- Right side -->
+            <div>
+                <img src="/img/hero_img.png" alt="hero_image">
+            </div>
+        </div>
+
+        <!--Skill flex container -->
+        <div class="container mx-auto px-10 bg-white rounded-xl mb-10">
+            <!-- soft skills container -->
+            <div class="flex flex-col justify-between md:flex-row p-6 items-center space-y-4 space-x-10 md:space-y-0">
+                <h2 class="font-bold md:w-1/2 text-3xl text-center md:text-left">Unleash their creativity with coding, stem & soft skills</h2>
+                <p class="md:w-1/2 text-xs text-center">We prepare young minds for an innovative future by igniting imagination, fostering essential soft skills, and providing engaging hands-on learning experiences in coding, STEM, and interactive classes.</p>
+            </div>
+        </div>
+
+        <!--Next gen innovators container -->
+        <div class="container md:mx-auto md:px-10 bg-[#1e1e1e] rounded-xl w-96 mx-auto md:w-screen">
+            <!-- soft skills container -->
+            <div class="flex flex-col justify-between space-y-8 md:flex-row p-6 items-center space-x-10 md:space-y-0">
+                <!-- left soft skills -->
+                <div class="flex flex-col space-y-4 md:w-1/2">
+                    <h2 class="font-bold text-3xl text-white">Join our students</h2>
+                    <p class="text-white font-light text-sm text-center md:text-left">Building NEXT GEN innovators</p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="text-sm text-white bg-[#1e1e1e] py-2 px-6 rounded-full font-bold border border-current">Get Started</a>
+                    </div>
+                </div>
+                <!-- Right soft skills -->
+                <div class="md:w-1/2 pe-8">
+                    <!-- <p class=" text-xs">We prepare young minds for an innovative future by igniting imagination, fostering essential soft skills, and providing engaging hands-on learning experiences in coding, STEM, and interactive classes.</p> -->
+                    <img src="/img/joinourselection.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Deep dive -->
+        <div class="container mx-auto py-20 md:px-40">
+            <h2 class="items-center font-extrabold text-6xl text-center">Deep dive into real world concepts</h2>
+        </div>
+
+
+
+        <!-- Cards sub-section -->
+        <div class="container mx-auto space-y-6 pb-14">
+            <!-- First line of card  -->
+            <div class="flex flex-col justify-between space-y-6 md:space-y-0 md:flex-row md:space-x-16">
+                <!-- stem education -->
+                <div class=" bg-[#FF564C] rounded-lg px-10 pb-6 mx-20 md:mx-0 md:w-1/2">
+                    <div class="flex flex-col mx-auto mt-11">
+                        <h1 class="text-3xl font-bold w-48 text-white">STEM Education</h1>
+                        <img src="./img/Stem education.png" alt="" class="pt-5">
+                    </div>
+                </div>
+                <!-- Application development -->
+                <div class=" bg-[#E8F0FE] rounded-lg px-10 pb-6 mx-20 md:mx-0 md:w-1/2">
+                    <div class="flex flex-col mx-auto mt-11">
+                        <h1 class="text-3xl font-bold w-60 ">Application Development</h1>
+                        <img src="./img/application-development.png" alt="" class="pt-5">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Line -->
+            <div class="flex flex-col justify-between space-y-6 md:space-y-0 md:flex-row md:space-x-16">
+                <!-- stem education -->
+                <div class=" bg-[#F1F1F1] rounded-lg px-10 pb-6 mx-20 md:mx-0 md:w-1/2">
+                    <div class="flex flex-col mx-auto mt-11">
+                        <h1 class="text-3xl font-bold w-48 ">Soft Skills Education</h1>
+                        <img src="./img/soft-skill-education (1).png" alt="" class="pt-5">
+                    </div>
+                </div>
+                <!-- Application development -->
+                <div class=" bg-[#7021D5] rounded-lg px-10 pb-6 mx-20 md:mx-0 md:w-1/2">
+                    <div class="flex flex-col mx-auto mt-11">
+                        <h1 class="text-3xl font-bold w-60 text-white">Programming & Logic</h1>
+                        <img src="./img/programming-and-logic.png" alt="" class="pt-5">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third line -->
+            <div class="flex flex-col justify-between space-y-6 md:space-y-0 md:flex-row md:space-x-16">
+                <!-- stem education -->
+                <div class=" bg-[#1A73E8] rounded-lg px-10 pb-6 mx-20 md:mx-0 md:w-1/2">
+                    <div class="flex flex-col mx-auto mt-11 ">
+                        <h1 class="text-3xl font-bold w-48 text-white ">Creative Arts & Design</h1>
+                        <img src="./img/creative-art-and-design.png " alt=" " class="pt-5 ">
+                    </div>
+                </div>
+                <!-- Application development -->
+                <div class=" bg-[#1A73E8] rounded-lg px-10 pb-6 mx-20 md:mx-0 md:w-1/2">
+                    <div class=" flex flex-col mx-auto mt-11 ">
+                        <h1 class="text-3xl font-bold w-60 text-white">Game Development</h1>
+                        <img src="./img/game-development.png " alt=" " class="pt-5 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Merchandise Categories -->
+        <div class="container mx-auto space-y-2 md:space-y-0">
+            <div class="text-center md:text-left">
+                <h1 class="text-2xl font-semibold pb-5">Merchandise Category</h1>
+            </div>
+            <!-- First row categories -->
+            <!-- Categories wrap -->
+            <div class="justify-between gap-3 hidden md:flex md:flex-row">
+                <div class="bg-[#D3E3FD] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">STEM BOOKS</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+
+                <div class="bg-[#E3E3E3] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Soft Skills BOOKS</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+
+                <div class="bg-[#C2E7FF] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Coding Contents</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+
+                <div class="bg-[#C4EED0] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Creative Designs</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row categories -->
+
+            <div class="justify-between gap-3 hidden md:flex md:flex-row">
+                <div class="bg-[#D5D1FF] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Comic Magazines</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+
+                <div class="bg-[#FDE3FF] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Game Boards</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+
+                <div class="bg-[#EEFFBE] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Flash Cards</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+
+                <div class="bg-[#FFE1E1] rounded-lg w-1/4 md:mb-8 align-middle">
+                    <div class=" flex flex-row justify-between py-3 px-8">
+                        <p class="text-gray-700 leading-4 font-bold py-4">Other Merchandise</p>
+                        <img src="./img/arrow-right.png" alt="" class="py-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comic Magazine section -->
+        <div class="container mx-auto py-6">
+            <!-- Main Container -->
+            <div class="bg-[#FEF7E0] rounded-lg grid grid-cols-1 place-items-center space-y-4 space-x-4 p-8 md:grid-cols-2">
+                <!-- Left side -->
+                <div class="flex flex-col space-y-8">
+                    <h2 class="text-black text-3xl font-bold text-center md:text-left">Comic Magazines teaching kids soft skills</h2>
+                    <p class="text-gray-700 text-sm">We prepare young minds for an innovative future by igniting imagination, fostering essential soft skills, and providing engaging hands-on learning experiences in coding, STEM, and interactive classes.</p>
+                    <div>
+                        <a href="#" class="text-sm text-white bg-[#1e1e1e] py-2 px-6 rounded-md font-bold border border-current hover:text-gray-400">Purchase</a>
+                    </div>
+                </div>
+                <!-- Right side -->
+                <div>
+                    <img src="./img/comic-magazines.png" alt="comic magazine">
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Book section -->
+        <div class="container mx-auto py-6">
+            <!-- Main Container -->
+            <div class="bg-[#EDEFFF] rounded-lg grid grid-cols-1 place-items-center space-y-4 space-x-4 p-8 md:grid-cols-2">
+                <!-- Left side -->
+                <div>
+                    <img src="./img/educational-books.png" alt="educational books">
+                </div>
+                <!-- Right side -->
+                <div class="flex flex-col space-y-8">
+                    <h2 class="text-black text-3xl font-bold text-center md:text-left">Educational Books Teaching Tech, Business, Economics & Skills</h2>
+                    <p class="text-gray-700 text-sm">We prepare young minds for an innovative future by igniting imagination, fostering essential soft skills, and providing engaging hands-on learning experiences in coding, STEM, and interactive classes.</p>
+                    <div>
+                        <a href="#" class="text-sm text-white bg-[#1e1e1e] py-2 px-6 rounded-md font-bold border border-current hover:text-gray-400">Purchase</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Flash cards section -->
+        <div class="container mx-auto py-6">
+            <!-- Main Container -->
+            <div class="bg-[#FEF7E0] rounded-lg grid grid-cols-1 place-items-center space-y-4 space-x-4 p-8 md:grid-cols-2">
+                <!-- Left side -->
+                <div class="flex flex-col space-y-8">
+                    <h2 class="text-black text-3xl font-bold text-center md:text-left">Awesome educational flash cards with gamified learning concepts.</h2>
+                    <p class="text-gray-700 text-sm">We prepare young minds for an innovative future by igniting imagination, fostering essential soft skills, and providing engaging hands-on learning experiences in coding, STEM, and interactive classes.</p>
+                    <!-- Button -->
+                    <div>
+                        <a href="#" class="text-sm text-white bg-[#1e1e1e] py-2 px-6 rounded-md font-bold border border-current hover:text-gray-400">Purchase</a>
+                    </div>
+                </div>
+                <!-- Right side -->
+                <div>
+                    <img src="./img/flash-cards.png" alt="flash cards">
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Container -->
+        <div class="container mx-auto bg-[#FFFAEB] flex flex-col space-y-6 space-x-0 md:flex-row md:justify-between md:space-x-4 p-8 my-10 rounded-lg">
+            <!-- Left Hand Side -->
+            <div class="flex flex-col space-y-4 w-1/2">
+                <h2>Join our team</h2>
+                <p class="text-xs w-72">Join our professional network of instructors, parents & guardians</p>
+                <!-- Button -->
+                <div>
+                    <a href="#" class="text-sm text-white bg-[#1e1e1e] py-2 px-6 rounded-md font-medium border border-current hover:text-gray-400">Join the team</a>
+                </div>
+            </div>
+            <!-- Right Hand Side -->
+            <div class="w-1/2">
+                <img src="./img/team.png" alt="join team" class="w-96">
+            </div>
+        </div>
+
+        <!-- Courses Portal -->
+        <div class="container mx-auto py-10 text-center md:text-left">
+            <h2 class="text-3xl font-semibold">Courses Portal <span class="text-[#59C878]">(Coming Soon)</span> </h2>
+            <p class="text-xs">Promising up-and-coming extensions to try out</p>
+        </div>
+
+        <!-- Courses Cards Main Container -->
+        <div class="container mx-auto my-6 pb-14 space-y-4 flex flex-col justify-between md:space-y-0 md:space-x-4 md:flex-row">
+            <!-- First card -->
+            <div class="bg-white p-6 rounded-lg w-full space-y-4 md:w-1/3 md:space-y-0">
+                <div class="flex flex-row justify-between space-x-4 align-middle items-center">
+                    <div class="">
+                        <img src="/img/courses_img.png" alt="course image">
+                    </div>
+                    <div class="">
+                        <h2 class="text-lg font-bold">Build mobile apps with adalo</h2>
+                        <p class="text-xs w-64">Let's learn to build simple apps daily for a month (Training for kids)</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <img src="/img/courses 1.png" alt="">
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="bg-white p-6 rounded-lg w-full space-y-4 md:w-1/3 md:space-y-0">
+                <div class="flex flex-row justify-between space-x-4 align-middle items-center">
+                    <div class="">
+                        <img src="/img/courses_img.png" alt="course image">
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold">Build mobile apps with adalo</h2>
+                        <p class="text-xs w-64">Let's learn to build simple apps daily for a month (Training for kids)</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <img src="/img/courses 2.png" alt="">
+                </div>
+            </div>
+
+            <!-- Third Card -->
+            <div class="bg-white p-6 rounded-lg w-full space-y-4 md:w-1/3 md:space-y-0">
+                <div class="flex flex-row justify-between space-x-4 align-middle items-center">
+                    <div class="">
+                        <img src="/img/courses_img.png" alt="course image">
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold">Build mobile apps with adalo</h2>
+                        <p class="text-xs w-64">Let's learn to build simple apps daily for a month (Training for kids)</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <img src="/img/courses 3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Course Card Container -->
+        <div class="container mx-auto my-6 pb-10 space-y-4 flex flex-col justify-between md:space-y-0 md:space-x-4 md:flex-row">
+            <!-- Forth card -->
+            <div class="bg-white p-6 rounded-lg w-full space-y-4 md:w-1/3 md:space-y-0">
+                <div class="flex flex-row justify-between space-x-4 align-middle items-center">
+                    <div class="">
+                        <img src="/img/courses_img.png" alt="course image">
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold">Build mobile apps with adalo</h2>
+                        <p class="text-xs w-64">Let's learn to build simple apps daily for a month (Training for kids)</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <img src="/img/courses 4.png" alt="">
+                </div>
+            </div>
+
+            <!-- Fifth Card -->
+            <div class="bg-white p-6 rounded-lg w-full space-y-4 md:w-1/3 md:space-y-0">
+                <div class="flex flex-row justify-between space-x-4 align-middle items-center">
+                    <div class="">
+                        <img src="/img/courses_img.png" alt="course image">
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold">Build mobile apps with adalo</h2>
+                        <p class="text-xs w-64">Let's learn to build simple apps daily for a month (Training for kids)</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <img src="/img/courses 5.png" alt="">
+                </div>
+            </div>
+
+            <!-- Sixth Card -->
+            <div class="bg-white p-6 rounded-lg w-full space-y-4 md:w-1/3 md:space-y-0">
+                <div class="flex flex-row justify-between space-x-4 align-middle items-center">
+                    <div class="">
+                        <img src="/img/courses_img.png" alt="course image">
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-bold">Build mobile apps with adalo</h2>
+                        <p class="text-xs w-64">Let's learn to build simple apps daily for a month (Training for kids)</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <img src="/img/courses 6.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Do More and Be More Container -->
+        <div class="container mx-auto">
+            <!-- First Card -->
+            <div class="flex flex-col space-y-6 px-10 pb-8 md:flex-row md:space-x-12 md:space-y-0">
+                <div class="bg-black rounded-lg md:w-1/2">
+                    <div class="flex flex-col ps-10 py-10 space-y-4">
+                        <p class="font-light text-white">Do More</p>
+                        <h1 class="font-medium text-white text-3xl">Virtual Education that makes a difference</h1>
+                    </div>
+                    <div>
+                        <img src="/img/Do more.png" alt="Do more image" class="rounded-b-lg">
+                    </div>
+                </div>
+                <!-- Second Card -->
+                <div class="bg-white rounded-lg md:w-1/2">
+                    <div class="flex flex-col ps-10 py-10 space-y-4">
+                        <p class="font-light text-gray-400">Be More</p>
+                        <h1 class="font-medium text-black text-3xl">We create virtual learning experience</h1>
+                    </div>
+                    <div>
+                        <img src="/img/Be more.png" alt="Be more image" class="rounded-b-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Join other section container -->
+        <div class="container mx-auto space-y-4 space-x-4">
+            <!-- Main container -->
+            <div class="bg-black p-10 rounded-2xl mt-8 space-y-6">
+                <div class="">
+                    <h4 class="text-white text-center text-5xl font-bold tracking-wider">Join other <br> amazing students</h4>
+                </div>
+                <!-- Main paragraph -->
+                <div class="flex flex-row justify-between gap-6 py-6 px-8">
+                    <!-- Left Paragraph -->
+                    <div>
+                        <p class="text-gray-400 text-xs leading-6">Get ready for an exciting exploration of the real world! Dive deep into fascinating concepts and explore their implications Discover new insights and gain a deeper understanding of the world around you.</p>
+                        <p class="text-gray-400 text-xs leading-6 pt-4">Enjoy a fun and enlightening journey into the depths of the unknown! <br> In their weekly classes, students play interactive games to explore real world concepts that are often not taught in the regular school system.</p>
+                    </div>
+                    <!-- Right paragraph -->
+                    <div>
+                        <p class="text-gray-400 text-xs leading-6">Get ready for an exciting exploration of the real world! Dive deep into fascinating concepts and explore their implications Discover new insights and gain a deeper understanding of the world around you.</p>
+                        <p class="text-gray-400 text-xs leading-6 pt-4">Enjoy a fun and enlightening journey into the depths of the unknown! <br> In their weekly classes, students play interactive games to explore real world concepts that are often not taught in the regular school system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-white">
+        <!-- Footer container -->
+        <div class="container mx-auto flex flex-col-reverse space-y-6 justify-between py-10 md:space-y-0 md:space-x-28 md:flex-row">
+            <!-- Logo and social media links -->
+            <div class="flex flex-col mx-auto justify-between space-y-5 md:space-y-20 md:w-2/5">
+                <div class="flex text-center mx-auto md:mx-0">
+                    <a href=""><img src="/img/kidsclubzone_logo.png" alt="kidsclubzon_logo" class="logo"></a>
+                </div>
+                <div class="flex flex-row w-96 rounded-full bg-white items-center justify-around">
+                    <p class="text-gray-400 text-xs">Follow us on socials</p>
+                    <!-- social icons -->
+                    <div class="flex flex-row items-center align-middle space-x-3">
+                        <a href="#"><img src="img/youtube_logo.png" alt="youtube" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/twitter.png" alt="twitter" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/instagram.png" alt="instagram" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/linkedin.png" alt="linkedIn" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/facebook.png" alt="facebook" class="h-4 w-4"></a>
+                        <a href="#"><img src="img/tiktok.png" alt="tiktok" class="h-4 w-4"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Page links -->
+            <div class="flex flex-row mx-10 justify-between md:w-2/5 md:mx-0">
+                <div class="flex flex-col space-y-3 w-1/2">
+                    <P class="font-bold text-black text-xs">Company</P>
+                    <P class="text-gray-700 text-xs">About</P>
+                    <P class="text-gray-700 text-xs">Contact Us</P>
+                    <P class="text-gray-700 text-xs">FAQ</P>
+                    <P class="text-gray-700 text-xs">Platforms</P>
+                </div>
+
+                <!-- Product Page -->
+                <div class="flex flex-col space-y-3 w-1/2">
+                    <P class="font-bold text-black text-xs">Products</P>
+                    <P class="text-gray-700 text-xs">Learning HUB</P>
+                    <P class="text-gray-700 text-xs">Shop</P>
+                </div>
+
+            </div>
+
+            <!-- Newsletter -->
+            <div class="flex flex-col mx-10 space-y-3 md:mx-0 md:w-2/5">
+                <p class="font-bold text-black text-xs text-center md:text-left">Subscribe to our Newsletter</p>
+                <div>
+                    <form class="flex justify-center items-center border border-gray-700 rounded-lg">
+                        <input type="email" placeholder="Enter Email" class="w-full p-2 mr-2 rounded-md text-gray-900 text-xs focus:border-none focus:ring-0 focus:outline-none" style="background-color: rgba(255, 255, 255, 0.7);">
+                        <button type="submit" class="bg-transparent hover:bg-blue-500 text-blue-700 text-xs font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded">
+                          Subscribe
+                        </button>
+                    </form>
+                </div>
+                <p class="text-xs text-gray-700">Get a summary of what we have shipped, behind the sscenes updates, and team picks. Unsubscribe at any time</p>
+            </div>
+        </div>
+        <div class="container mx-auto w-full h-px bg-black my-8"></div>
+        <div class="mx-auto py-4 text-center text-gray-700 font-semibold">Copyright &copy; 2024, All Rights Reserved</div>
+
+    </section>
+
+
+
+
+    <script src="js/script.js "></script>
+</body>
+
+</html
